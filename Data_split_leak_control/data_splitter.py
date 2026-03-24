@@ -1,5 +1,4 @@
 import pandas as pd
-import os
 from sklearn.model_selection import train_test_split
 class DataSplitter:
     def __init__(self, train_size=0.6, val_size=0.2, test_size=0.2, random_state=42):
